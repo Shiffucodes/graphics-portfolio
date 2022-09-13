@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+body {
+margin: 0;
+font-family: 'Open Sans', sans-serif;
+background-color: aliceblue;
+}
+
+/* Profile Image */
+.profile-image{
+  width: 70%;
+  height: 40%;
+  margin: 70px 30px;
+  padding: auto;
+  text-align: center;
+}
+
+.profile-image img{
+  filter: blur(100);
+  text-align: center;
+  border-radius: 50px;
+}
+
+/* Story */
+#story{
+  margin: 50px auto;
+}
+.story-head{
+  text-align: center;
+  margin: 50px auto;
+}
+
+.story-head h1{
+  font-size: 35px;
+  margin: 5px auto;
+}
+
+.story-divider{
+  width: 25%;
+  border: 3px solid blue;
+  margin: 0 auto;
+}
+
+.story-text{
+  width: 90%;
+  margin: auto;
+  text-align: left;
+}
+
+.story-text p{
+  font-size: 18px;
+  text-align: left;
+}
+
+#st{
+  color: blue;
+  font-size: 22px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* Projects */
+
+.project-title{
+  margin-bottom: 50px;
+}
+
+.project-title h1{
+  font-size: 30px;
+  text-align: center;
+}
+
+.card{
+  width: 70%;
+  margin: 50px auto;
+  background-color: rgb(184, 211, 235);
+  padding-bottom: 7px;
+  border-radius: 15px;
+  box-shadow: 0 15px 30px 5px rgba(0, 0, 0, 0.3);
+}
+
+.card img{
+  width: 100%;
+  margin: auto;
+  border-radius: 15px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.card-text{
+  text-align: center;
+}
+
+.card-text a{
+  text-decoration: none;
+  color: black;
+}
+
+
+
+@media (max-width: 767px) {
+ .nav {
+    height: 100vh;
+    padding-top: 40px;
+  }
+}
+
+/* Hide nav links on screens with width below 768px  */
+@media (min-width: 768px) {
+  
+
+  .profile-image{
+    margin: auto;
+  }
+
+  
+  .profile-image img{
+    border-radius: 50px;
+    filter: blur(70);
+    border-radius: 50px;
+    text-align: center;
+  }
+
+  .card{
+    width: 50%;
+    margin: 50px auto;
+    background-color: rgb(184, 211, 235);
+    padding-bottom: 7px;
+    border-radius: 15px;
+    box-shadow: 0 15px 30px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .card img{
+    width: 100%;
+    margin: auto;
+    border-radius: 15px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  .card-text{
+    text-align: center;
+  }
+  
+  .card-text a{
+    text-decoration: none;
+    color: black;
+  }
+  
+}
+
