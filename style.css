@@ -10,18 +10,10 @@ background-color: aliceblue;
 }
 
 /* Profile Image */
-.profile-image{
-  width: 70%;
-  height: 40%;
-  margin: 70px 30px;
-  padding: auto;
-  text-align: center;
-}
 
-.profile-image img{
-  filter: blur(100);
-  text-align: center;
-  border-radius: 50px;
+.responsive{
+  width: 100%;
+  height: auto;
 }
 
 /* Story */
